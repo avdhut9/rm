@@ -9,7 +9,27 @@
 
     ],
     "data4":[
-
+        {
+            id: "1",
+            categoryId: "12344",
+            categoryNameEn: "Verify",
+            categoryNameAr: "SEQ",
+            status: "Active",
+          },
+          {
+            id: "2",
+            categoryId: "12345",
+            categoryNameEn: "AUTH",
+            categoryNameAr: "PARALLEL",
+            status: "Rejected",
+          },
+          {
+            id: "3",
+            categoryId: "12346",
+            categoryNameEn: "Confirm",
+            categoryNameAr: "SEQ",
+            status: "Pending For Authorization",
+          }
     ],
     "data5":[
         

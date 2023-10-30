@@ -1,6 +1,29 @@
 {
     "data1":[
-
+{
+                "id": "1",
+                "CharityCategory": "ChildTrustChildWelfareTrust",
+                "CharityNameEnglish": "sasbb",
+                "CharityNameArabic": "asashahs",
+                "AccountNumber": "1234567890",
+                "status": "Rejected"
+              },
+              {
+                "id": "2",
+                "CharityCategory": "OldageOldageTrust",
+                "CharityNameEnglish": "hariasty2",
+                "CharityNameArabic": "harassity2",
+                "AccountNumber": "1234567891",
+                "status": "Active"
+              },
+              {
+                "id": "3",
+                "CharityCategory": "OldageOldageTrust",
+                "CharityNameEnglish": "charity3",
+                "CharityNameArabic": "charity3",
+                "AccountNumber": "1234567892",
+                "status": "PendingForAuthorization"
+              }
     ],
     "data2":[
 

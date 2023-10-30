@@ -52,6 +52,39 @@
           }
     ],
     "data4":[
+        {
+            id: "1",
+            sadadCategory: "Catogery 1",
+            billerCode: "122133242",
+            beneficiaryType: "Some Type",
+            subscriptionNameEn: "subEn",
+            subscriptionNameAr: "subAr",
+            billerNameEn: "rafiq",
+            billerNameAr: "rafiq",
+            status: "Active",
+          },
+          {
+            id: "2",
+            sadadCategory: "Catogery 1",
+            billerCode: "122133242",
+            beneficiaryType: "Some Type",
+            subscriptionNameEn: "subEn",
+            subscriptionNameAr: "subAr",
+            billerNameEn: "rafiq",
+            billerNameAr: "rafiq",
+            status: "Rejected",
+          },
+          {
+            id: "3",
+            sadadCategory: "Catogery 1",
+            billerCode: "122133242",
+            beneficiaryType: "Some Type",
+            subscriptionNameEn: "subEn",
+            subscriptionNameAr: "subAr",
+            billerNameEn: "rafiq",
+            billerNameAr: "rafiq",
+            status: "Pending For Authorization",
+          }
 
     ],
     "data5":[

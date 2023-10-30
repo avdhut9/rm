@@ -10,7 +10,7 @@
               },
               {
                 "id": "2",
-                "CharityCategory": "OldageOldageTrust",
+                "CharityCategory": "OldAgeOldAgeTrust",
                 "CharityNameEnglish": "hariasty2",
                 "CharityNameArabic": "harassity2",
                 "AccountNumber": "1234567891",
@@ -18,7 +18,7 @@
               },
               {
                 "id": "3",
-                "CharityCategory": "OldageOldageTrust",
+                "CharityCategory":"TempleCharity",
                 "CharityNameEnglish": "charity3",
                 "CharityNameArabic": "charity3",
                 "AccountNumber": "1234567892",

@@ -93,8 +93,34 @@
   }
 
     ],
-    "data5":[
-        
+    "data5":[     
+{
+"houseId": 2253645811,
+"investmentHouseEng": "shivam",
+"investmentHouseArab": "Rathod",
+"accountNo": "3435456565",
+"wallet": "Yes",
+"status": "Pending for Authorization",
+"id": 1
+},
+{
+"houseId": 1253500634,
+"investmentHouseEng": "rathod",
+"investmentHouseArab": "shivam",
+"accountNo": "234099678475",
+"wallet": "No",
+"status": "Active",
+"id": 2
+},
+{
+"houseId": 2690545690,
+"investmentHouseEng": "demoEng",
+"investmentHouseArab": "DemoArab",
+"accountNo": "785943939585",
+"wallet": "No",
+"status": "Rejected",
+"id": 3
+}   
     ],
     "data6":[],
     "data7":[],

@@ -54,35 +54,41 @@
     "data4":[
          {
     "id": "1",
-    "sadadCategory": "Catogery 1",
+    "sadadCategory": "sadadCat2",
     "billerCode": "122133242",
     "beneficiaryType": "Some Type",
     "subscriptionNameEn": "subEn",
     "subscriptionNameAr": "subAr",
     "billerNameEn": "rafiq",
     "billerNameAr": "rafiq",
+    "rechargeAmount":"1000",
+    "serviceType":"Prepaid",
     "status": "Active"
   },
   {
     "id": "2",
-    "sadadCategory": "Catogery 1",
+    "sadadCategory": "sadadCat1",
     "billerCode": "122133242",
     "beneficiaryType": "Some Type",
     "subscriptionNameEn": "subEn",
     "subscriptionNameAr": "subAr",
     "billerNameEn": "rafiq",
     "billerNameAr": "rafiq",
+      "rechargeAmount":"1000",
+    "serviceType":"Both",
     "status": "Rejected"
   },
   {
     "id": "3",
-    "sadadCategory": "Catogery 1",
+    "sadadCategory": "sadadCat2",
     "billerCode": "122133242",
     "beneficiaryType": "Some Type",
     "subscriptionNameEn": "subEn",
     "subscriptionNameAr": "subAr",
     "billerNameEn": "rafiq",
     "billerNameAr": "rafiq",
+      "rechargeAmount":"1000",
+    "serviceType":"Postpaid",
     "status": "Pending For Authorization"
   }
 

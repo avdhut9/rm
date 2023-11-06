@@ -71,7 +71,21 @@
     "id":"3"
   }
     ],
-    "data3":[
+    "data3":
+        {
+    "responseHeader": {
+        "deviceId": "a3137da539e47d5f",
+        "channel": "ADMIN",
+        "trackingId": "922161798916414410305",
+        "timestamp": "2023-10-06 11:20:10:333",
+        "serviceName": "transaction:view",
+        "locale": "en_US",
+        "moduleCode": "ADM_BANK_SYSPARAM_MOD",
+        "businessFunctionCode": null,
+        "workstationIP": "127.0.1.1"
+    },
+    "responseBody": {
+        "categories": [
         {
     "id": "1",
     "categoryId": "12344",
@@ -92,8 +106,9 @@
     "categoryNameEn": "Confirm",
     "categoryNameAr": "SEQ",
     "status": "Pending For Authorization"
-  }
-    ],
+  }]
+    }
+},
     "data4":[
          {
     "id": "1",

@@ -180,7 +180,562 @@
 "id": 3
 }   
     ],
-    "data6":[],
+    "data6":[
+        iban: {
+                name: "iban",
+                label: "IBAN",
+                isDisable: true,
+                value: "",
+                errorMsg: "",
+                placeholder: "2343456665656",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                validationRules: {
+                    isRequired: false
+                },
+            },
+            ibanOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                options: [
+                    {
+                        label: "IBAN is incorrect",
+                        value: "IBAN is incorrect"
+                    }
+                ]
+            },
+
+            bname: {
+                name: "bname",
+                label: t("Reports:beneficiaryName"),
+                value: "",
+                errorMsg: "",
+                placeholder: "user",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            bnameOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                options: [
+                    {
+                        label: "Name incorrect",
+                        value: "Name incorrect"
+                    }
+                ]
+            },
+            btype: {
+                name: "btype",
+                label: "Beneficiary Type",
+                isDisable: true,
+                value: "",
+                errorMsg: "",
+                placeholder: "",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                validationRules: {
+                    isRequired: false
+                },
+            },
+            btypeOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                options: [
+                    {
+                        label: "Type incorrect",
+                        value: "Type incorrect"
+                    }
+                ]
+            },
+
+            b_short_name: {
+                name: "b_short_name",
+                label: t("Reports:beneficiaryName"),
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            bShortNameOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                options: [
+                    {
+                        label: "Short name incorrect",
+                        value: "Short name incorrect"
+                    }
+                ]
+            },
+
+            b_address: {
+                name: "b_address",
+                label: "Beneficiary Address",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+
+            bAddressOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "Address incorrect",
+                        value: "Address incorrect"
+                    }
+                ]
+            },
+            relationship: {
+                name: "relationship",
+                label: "Relationship",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+
+            relationshipOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "Relationship is wrong",
+                        value: "Relationship is wrong"
+                    }
+                ]
+            },
+
+            beneficiaryBankName: {
+                name: "beneficiaryBankName",
+                label: "Beneficiary Bank Name",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+
+            beneficiaryBankNameOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "We don't deal with this bank",
+                        value: "We don't deal with this bank"
+                    }
+                ]
+            },
+            nationalClearingCode: {
+                name: "nationalClearingCode",
+                label: "National Clearing Code",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            clearingOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "Code incorrect",
+                        value: "Code incorrect"
+                    }
+                ]
+            },
+            beneficiaryBankCountry: {
+                name: "beneficiaryBankCountry",
+                label: "Beneficiary Bank Country",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            countryOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "We don't deal with this country",
+                        value: "We don't deal with this country"
+                    }
+                ]
+            },
+            accountNo: {
+                name: "accountNo",
+                label: " Account Number",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            accountOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "Account number incorrect",
+                        value: "Account number incorrect"
+                    }
+                ]
+            },
+            beneficiaryAccountCurr: {
+                name: "beneficiaryAccountCurr",
+                label: "Beneficiary Account Currency",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            currencyOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "Currency incorrect",
+                        value: "Currency incorrect"
+                    }
+                ]
+            },
+            beneficiarySwiftCode: {
+                name: "beneficiarySwiftCode",
+                label: "Beneficiary SWIFT Code",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            swiftCodeOptions: {
+                value: "",
+                valid: false,
+                touched: false,
+                errorMsg: "",
+                displayFlag: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                options: [
+                    {
+                        label: "SWIFT incorrect",
+                        value: "SWIFT incorrect"
+                    }
+                ]
+            },
+            receiverBankName: {
+                name: "receiverBankName",
+                label: "Receiver Bank Name",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+                options: [
+                    {
+                        label: "NA",
+                        value: "NA"
+                    }
+                ]
+            },
+            receiverBankSwiftCode: {
+                name: "receiverBankSwiftCode",
+                value: "NOSTRO",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: false,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+                options: [
+                    {
+                        label: "Receiver Bank Swift Code",
+                        value: "NOSTRO"
+                    },
+                    {
+                        label: "Receiver Bank Swift Code",
+                        value: "vOSTRO"
+                    },
+                ]
+            },
+            intermediateBankSwiftCode: {
+                name: "intermediateBankSwiftCode",
+                label: "Intermediate Bank SWIFT",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            senderName: {
+                name: "senderName",
+                label: "Sender Name (Customer Name)",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            sender1: {
+                name: "sender1",
+                label: "",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                // customErrors: {
+                //     MANDATORY_ERR: t("Reports:Please_Enter", {
+                //         field: t("Reports:beneficiaryName"),
+                //     }),
+                // },
+            },
+            sender2: {
+                name: "sender2",
+                label: "",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            },
+            sender3: {
+                name: "sender3",
+                label: "",
+                value: "",
+                errorMsg: "",
+                type: "text",
+                valid: false,
+                touched: false,
+                displayFlag: true,
+                isDisable: true,
+                validationRules: {
+                    isRequired: true,
+                },
+                customErrors: {
+                    MANDATORY_ERR: t("Reports:Please_Enter", {
+                        field: t("Reports:beneficiaryName"),
+                    }),
+                },
+            }
+    ],
     "data7":[],
     "data8":[],
     "data9":[],

@@ -14,7 +14,7 @@
   "responseBody": {
       "extras": {},
       "errorWrapper": null,
-      "charity": [
+      "charity": 
           [
       
               {
@@ -43,7 +43,7 @@
                 }
           
           
-      ]
+      
       ]
   },
   "errors": null

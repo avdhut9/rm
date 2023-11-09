@@ -1,5 +1,147 @@
 {
   "RealEstateUnitPayment": {
+    "data1": {
+      "responseHeader": {
+        "channel": "ADMIN",
+        "deviceId": "a3137da539e47d5f",
+        "locale": "en_US",
+        "serviceName": "services-charity:view",
+        "trackingId": "922161798916414410305",
+        "timestamp": "2023-10-20T15:00:59.892",
+        "workstationIP": "127.0.1.1",
+        "success": true
+      },
+
+      "responseBody": {
+        "extras": {},
+        "errorWrapper": null,
+        "charity": [
+          {
+            "id": "1",
+            "CharityCategory": "charity1",
+            "CharityNameEnglish": "charity",
+            "CharityNameArabic": "charity",
+            "AccountNumber": "1234567890",
+            "status": "Rejected"
+          },
+          {
+            "id": "2",
+            "CharityCategory": "charity2",
+            "CharityNameEnglish": "charity2",
+            "CharityNameArabic": "charity2",
+            "AccountNumber": "1234567891",
+            "status": "Active"
+          },
+          {
+            "id": "3",
+            "CharityCategory": "charity3",
+            "CharityNameEnglish": "charity3",
+            "CharityNameArabic": "charity3",
+            "AccountNumber": "1234567892",
+            "status": "PendingForAuthorization"
+          }
+        ]
+      },
+      "errors": null
+    },
+
+    "data2": {
+      "responseHeader": {
+        "channel": "ADMIN",
+        "deviceId": "a3137da539e47d5f",
+        "locale": "en_US",
+        "serviceName": "services-charity:view",
+        "trackingId": "922161798916414410305",
+        "timestamp": "2023-10-20T15:00:59.892",
+        "workstationIP": "127.0.1.1",
+        "success": true
+      },
+
+      "responseBody": {
+        "extras": {},
+        "errorWrapper": null,
+        "SwiftCountryData": [
+          {
+            "CountryCode": "123",
+            "CountryNameEnglish": "France",
+            "CountryNameArabic": "asas sas",
+            "Currency": "currency1",
+            "IBANRequired": "Yes",
+            "IBANLength": "12",
+            "IBANPrefix": "abc",
+            "CountryStatus": "TelemoneCountry",
+            "SwiftCode": "Yes",
+            "FieldNameforClearingCodeEnglish": "qwqwqw",
+            "FieldNameforClearingCodeArabic": "qwqwqw",
+            "status": "PendingForAuthorization",
+            "id": "1"
+          },
+          {
+            "CountryCode": "5678",
+            "CountryNameEnglish": "India",
+            "CountryNameArabic": "asas sas",
+            "Currency": "currency2",
+            "IBANRequired": "Yes",
+            "IBANLength": "12",
+            "IBANPrefix": "def",
+            "CountryStatus": "TelemoneCountry",
+            "SwiftCode": "Yes",
+            "FieldNameforClearingCodeEnglish": "qwqwqw",
+            "FieldNameforClearingCodeArabic": "qwqwqw",
+            "status": "Active",
+            "id": "2"
+          },
+          {
+            "CountryCode": "9000",
+            "CountryNameEnglish": "Russia",
+            "CountryNameArabic": "asas sas",
+            "Currency": "currency2",
+            "IBANRequired": "Yes",
+            "IBANLength": "12",
+            "IBANPrefix": "ghi",
+            "CountryStatus": "TelemoneCountry",
+            "SwiftCode": "Yes",
+            "FieldNameforClearingCodeEnglish": "qwqwqw",
+            "FieldNameforClearingCodeArabic": "qwqwqw",
+            "status": "Rejected",
+            "id": "3"
+          }
+        ]
+      },
+      "errors": null
+    },
+    "data3": [],
+    "data4": [],
+    "data5": [
+      {
+        "houseId": "2253645811",
+        "investmentHouseEng": "shivam",
+        "investmentHouseArab": "Rathod",
+        "accountNo": "3435456565",
+        "wallet": "Yes",
+        "status": "Pending for Authorization",
+        "id": 1
+      },
+      {
+        "houseId": "1253500634",
+        "investmentHouseEng": "rathod",
+        "investmentHouseArab": "shivam",
+        "accountNo": "234099678475",
+        "wallet": "No",
+        "status": "Active",
+        "id": 2
+      },
+      {
+        "houseId": "2690545690",
+        "investmentHouseEng": "demoEng",
+        "investmentHouseArab": "DemoArab",
+        "accountNo": "785943939585",
+        "wallet": "No",
+        "status": "Rejected",
+        "id": 3
+      }
+    ],
+    "data6": [],
     "responseHeader": {
       "deviceId": "a3137da539e47d5f",
       "channel": "ADMIN",
@@ -40,7 +182,6 @@
       ]
     }
   },
-
   "RealEstatePaymentUnitCreate": {
     "responseHeader": {
       "channel": "ADMIN",
@@ -124,7 +265,7 @@
       ]
     }
   },
-  "TermsAndConditionCreate":{
+  "TermsAndConditionCreate": {
     "responseHeader": {
       "channel": "ADMIN",
       "deviceId": "a3137da539e47d5f",
@@ -140,7 +281,7 @@
     },
     "errors": null
   },
-  "TermsAndConditionUpdate":{
+  "TermsAndConditionUpdate": {
     "responseHeader": {
       "deviceId": "a3137da539e47d5f",
       "channel": "ADMIN",
@@ -158,7 +299,7 @@
     },
     "errors": null
   },
-  "TermsAndConditionDelete":{
+  "TermsAndConditionDelete": {
     "responseHeader": {
       "channel": "ADMIN",
       "deviceId": "a3137da539e47d5f",
@@ -173,5 +314,7 @@
       "message": "Terms And Condition is deleted successfully"
     },
     "errors": null
-  }
+  },
+  "data9": [],
+  "data10": []
 }

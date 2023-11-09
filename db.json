@@ -1,188 +1,177 @@
 {
-    "data1":[
-{
-                "id": "1",
-                "CharityCategory": "ChildTrustChildWelfareTrust",
-                "CharityNameEnglish": "sasbb",
-                "CharityNameArabic": "asashahs",
-                "AccountNumber": "1234567890",
-                "status": "Rejected"
-              },
-              {
-                "id": "2",
-                "CharityCategory": "OldAgeOldAgeTrust",
-                "CharityNameEnglish": "hariasty2",
-                "CharityNameArabic": "harassity2",
-                "AccountNumber": "1234567891",
-                "status": "Active"
-              },
-              {
-                "id": "3",
-                "CharityCategory":"TempleCharity",
-                "CharityNameEnglish": "charity3",
-                "CharityNameArabic": "charity3",
-                "AccountNumber": "1234567892",
-                "status": "PendingForAuthorization"
-              }
-    ],
-    "data2":[
-{
-    "CountryCode": "123",
-    "CountryNameEnglish": "France",
-    "CountryNameArabic": "asas sas",
-    "Currency": "currency1",
-    "IBANRequired": "Yes",
-    "IBANLength": "12",
-    "IBANPrefix": "abc",
-    "CountryStatus": "TelemoneCountry",
-    "SwiftCode": "Yes",
-    "FieldNameforClearingCodeEnglish": "qwqwqw",
-    "FieldNameforClearingCodeArabic": "qwqwqw",
-    "status": "PendingForAuthorization",
-    "id":"1"
-  },
-        {
-    "CountryCode": "5678",
-    "CountryNameEnglish": "India",
-    "CountryNameArabic": "asas sas",
-    "Currency": "currency2",
-    "IBANRequired": "Yes",
-    "IBANLength": "12",
-    "IBANPrefix": "def",
-    "CountryStatus": "TelemoneCountry",
-    "SwiftCode": "Yes",
-    "FieldNameforClearingCodeEnglish": "qwqwqw",
-    "FieldNameforClearingCodeArabic": "qwqwqw",
-    "status": "Active",
-    "id":"2"
-  },{
-    "CountryCode": "9000",
-    "CountryNameEnglish": "Russia",
-    "CountryNameArabic": "asas sas",
-    "Currency": "currency2",
-    "IBANRequired": "Yes",
-    "IBANLength": "12",
-    "IBANPrefix": "ghi",
-    "CountryStatus": "TelemoneCountry",
-    "SwiftCode": "Yes",
-    "FieldNameforClearingCodeEnglish": "qwqwqw",
-    "FieldNameforClearingCodeArabic": "qwqwqw",
-    "status": "Rejected",
-    "id":"3"
-  }
-    ],
-    "data3":
-        {
+  "RealEstateUnitPayment": {
     "responseHeader": {
-        "deviceId": "a3137da539e47d5f",
-        "channel": "ADMIN",
-        "trackingId": "922161798916414410305",
-        "timestamp": "2023-10-06 11:20:10:333",
-        "serviceName": "transaction:view",
-        "locale": "en_US",
-        "moduleCode": "ADM_BANK_SYSPARAM_MOD",
-        "businessFunctionCode": null,
-        "workstationIP": "127.0.1.1"
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 11:20:10:333",
+      "serviceName": "realEstateUnitPayment:view",
+      "locale": "en_US",
+      "moduleCode": "ADM_BANK_SYSPARAM_MOD",
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1"
     },
     "responseBody": {
-        "categories": [
+      "RealEstateUnitPayment": [
         {
-    "id": "1",
-    "categoryId": "12344",
-    "categoryNameEn": "Verify",
-    "categoryNameAr": "SEQ",
-    "status": "Active"
-  },
-  {
-    "id": "2",
-    "categoryId": "12345",
-    "categoryNameEn": "AUTH",
-    "categoryNameAr": "PARALLEL",
-    "status": "Rejected"
-  },
-  {
-    "id": "3",
-    "categoryId": "12346",
-    "categoryNameEn": "Confirm",
-    "categoryNameAr": "SEQ",
-    "status": "Pending For Authorization"
-  }]
+          "id": "1",
+          "RealEstateID": "33459",
+          "RealEstateNameEnglish": "Verify",
+          "RealEstateNameArabic": "SEQ",
+          "Accountnumber": 3453633363123434,
+          "status": "Active"
+        },
+        {
+          "id": "2",
+          "RealEstateID": "23452",
+          "RealEstateNameEnglish": "Verify",
+          "RealEstateNameArabic": "SEQ",
+          "Accountnumber": 3453633363123434,
+          "status": "Rejected"
+        },
+        {
+          "id": "3",
+          "RealEstateID": "23452",
+          "RealEstateNameEnglish": "Verify",
+          "RealEstateNameArabic": "SEQ",
+          "Accountnumber": 3453633363123434,
+          "status": "Active"
+        }
+      ]
     }
-},
-    "data4":[
-         {
-    "id": "1",
-    "sadadCategory": "sadadCat2",
-    "billerCode": "122133242",
-    "beneficiaryType": "Some Type",
-    "subscriptionNameEn": "subEn",
-    "subscriptionNameAr": "subAr",
-    "billerNameEn": "rafiq",
-    "billerNameAr": "rafiq",
-    "rechargeAmount":"1000",
-    "serviceType":"Prepaid",
-    "status": "Active"
   },
-  {
-    "id": "2",
-    "sadadCategory": "sadadCat1",
-    "billerCode": "122133242",
-    "beneficiaryType": "Some Type",
-    "subscriptionNameEn": "subEn",
-    "subscriptionNameAr": "subAr",
-    "billerNameEn": "rafiq",
-    "billerNameAr": "rafiq",
-      "rechargeAmount":"1000",
-    "serviceType":"Both",
-    "status": "Rejected"
-  },
-  {
-    "id": "3",
-    "sadadCategory": "sadadCat2",
-    "billerCode": "122133242",
-    "beneficiaryType": "Some Type",
-    "subscriptionNameEn": "subEn",
-    "subscriptionNameAr": "subAr",
-    "billerNameEn": "rafiq",
-    "billerNameAr": "rafiq",
-      "rechargeAmount":"1000",
-    "serviceType":"Postpaid",
-    "status": "Pending For Authorization"
-  }
 
-    ],
-    "data5":[     
-{
-"houseId": "2253645811",
-"investmentHouseEng": "shivam",
-"investmentHouseArab": "Rathod",
-"accountNo": "3435456565",
-"wallet": "Yes",
-"status": "Pending for Authorization",
-"id": 1
-},
-{
-"houseId": "1253500634",
-"investmentHouseEng": "rathod",
-"investmentHouseArab": "shivam",
-"accountNo": "234099678475",
-"wallet": "No",
-"status": "Active",
-"id": 2
-},
-{
-"houseId": "2690545690",
-"investmentHouseEng": "demoEng",
-"investmentHouseArab": "DemoArab",
-"accountNo": "785943939585",
-"wallet": "No",
-"status": "Rejected",
-"id": 3
-}   
-    ],
-    "data6":[],
-    "data7":[],
-    "data8":[],
-    "data9":[],
-    "data10":[]
+  "RealEstatePaymentUnitCreate": {
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "realEstatePaymentUnit:create",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "Real Estate Payment Unit is created successfully and send to authorization"
+    },
+    "errors": null
+  },
+
+  "RealEstatePaymentUnitDelete": {
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "realEstatePaymentUnit:delete",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "Real Estate Payment Unit is deleted successfully"
+    },
+    "errors": null
+  },
+  "RealEstatePaymentUnitUpdate": {
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 11:20:10:333",
+      "serviceName": "realEstatePaymentUnit:edit",
+      "locale": "en_US",
+      "moduleCode": null,
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "updated record sent for approval successfully"
+    },
+    "errors": null
+  },
+
+  "TermsAndCondition": {
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 11:20:10:333",
+      "serviceName": "termsAndCondition:view",
+      "locale": "en_US",
+      "moduleCode": "ADM_BANK_SYSPARAM_MOD",
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1"
+    },
+    "responseBody": {
+      "TermsAndCondition": [
+        {
+          "id": "1",
+          "FeatureName": "Investment",
+          "status": "Authorized",
+          "TermsAndConditionContentEnglish": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+          "TermsAndConditionContentArabic": "بحق كل وجزر أراض الطرفين, قد ودول الجنوب بمحاولة أسر, دار هو حلّت واحدة. لمّ ما ممثّلة أوروبا باستحداث, هو واعتلاء استعملت إيو. هو والتي شموليةً تحت, المشترك ايطاليا، من بين, الأوروبية، بريطانيا-فرنسا أخذ عن. بعد إذ الطرفين والنرويج, عُقر أكثر بين بـ. بعد تم شعار وشعار النزاع, بينما فقامت ٣٠ بال. قبل وسفن واشتدّت ٣٠, غير من صفحة واعتلاء, فصل الجوي مشروط الصين ان. ٣٠ تعد ليرتفع استمرار. ضرب عليها إستعمل لم, من لإعادة تزامناً واقتصار مدن. أن تصرّف ديسمبر بريطانيا وصل, لدحر الثالث، والروسية دول بـ. "
+        },
+        {
+          "id": "2",
+          "FeatureName": "Investment",
+          "status": "Rejected",
+          "TermsAndConditionContentEnglish": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+          "TermsAndConditionContentArabic": "بحق كل وجزر أراض الطرفين, قد ودول الجنوب بمحاولة أسر, دار هو حلّت واحدة. لمّ ما ممثّلة أوروبا باستحداث, هو واعتلاء استعملت إيو. هو والتي شموليةً تحت, المشترك ايطاليا، من بين, الأوروبية، بريطانيا-فرنسا أخذ عن. بعد إذ الطرفين والنرويج, عُقر أكثر بين بـ. بعد تم شعار وشعار النزاع, بينما فقامت ٣٠ بال. قبل وسفن واشتدّت ٣٠, غير من صفحة واعتلاء, فصل الجوي مشروط الصين ان. ٣٠ تعد ليرتفع استمرار. ضرب عليها إستعمل لم, من لإعادة تزامناً واقتصار مدن. أن تصرّف ديسمبر بريطانيا وصل, لدحر الثالث، والروسية دول بـ. "
+        }
+      ]
+    }
+  },
+  "TermsAndConditionCreate":{
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "termsAndCondition:create",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "Terms And Condition is created successfully and send to authorization"
+    },
+    "errors": null
+  },
+  "TermsAndConditionUpdate":{
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 11:20:10:333",
+      "serviceName": "termsAndCondition:edit",
+      "locale": "en_US",
+      "moduleCode": null,
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "updated record sent for approval successfully"
+    },
+    "errors": null
+  },
+  "TermsAndConditionDelete":{
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "termsAndCondition:delete",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "Terms And Condition is deleted successfully"
+    },
+    "errors": null
+  }
 }

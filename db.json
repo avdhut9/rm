@@ -52,52 +52,76 @@
 
 
 
-    "data2":[
-{
-    "CountryCode": "123",
-    "CountryNameEnglish": "France",
-    "CountryNameArabic": "asas sas",
-    "Currency": "currency1",
-    "IBANRequired": "Yes",
-    "IBANLength": "12",
-    "IBANPrefix": "abc",
-    "CountryStatus": "TelemoneCountry",
-    "SwiftCode": "Yes",
-    "FieldNameforClearingCodeEnglish": "qwqwqw",
-    "FieldNameforClearingCodeArabic": "qwqwqw",
-    "status": "PendingForAuthorization",
-    "id":"1"
+    "data2":{
+  "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "services-charity:view",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-20T15:00:59.892",
+      "workstationIP": "127.0.1.1",
+      "success": true
   },
-        {
-    "CountryCode": "5678",
-    "CountryNameEnglish": "India",
-    "CountryNameArabic": "asas sas",
-    "Currency": "currency2",
-    "IBANRequired": "Yes",
-    "IBANLength": "12",
-    "IBANPrefix": "def",
-    "CountryStatus": "TelemoneCountry",
-    "SwiftCode": "Yes",
-    "FieldNameforClearingCodeEnglish": "qwqwqw",
-    "FieldNameforClearingCodeArabic": "qwqwqw",
-    "status": "Active",
-    "id":"2"
-  },{
-    "CountryCode": "9000",
-    "CountryNameEnglish": "Russia",
-    "CountryNameArabic": "asas sas",
-    "Currency": "currency2",
-    "IBANRequired": "Yes",
-    "IBANLength": "12",
-    "IBANPrefix": "ghi",
-    "CountryStatus": "TelemoneCountry",
-    "SwiftCode": "Yes",
-    "FieldNameforClearingCodeEnglish": "qwqwqw",
-    "FieldNameforClearingCodeArabic": "qwqwqw",
-    "status": "Rejected",
-    "id":"3"
-  }
-    ],
+
+  "responseBody": {
+      "extras": {},
+      "errorWrapper": null,
+      "SwiftCountryData": [
+          
+      
+            {
+              "CountryCode": "123",
+              "CountryNameEnglish": "France",
+              "CountryNameArabic": "asas sas",
+              "Currency": "currency1",
+              "IBANRequired": "Yes",
+              "IBANLength": "12",
+              "IBANPrefix": "abc",
+              "CountryStatus": "TelemoneCountry",
+              "SwiftCode": "Yes",
+              "FieldNameforClearingCodeEnglish": "qwqwqw",
+              "FieldNameforClearingCodeArabic": "qwqwqw",
+              "status": "PendingForAuthorization",
+              "id": "1"
+            },
+            {
+              "CountryCode": "5678",
+              "CountryNameEnglish": "India",
+              "CountryNameArabic": "asas sas",
+              "Currency": "currency2",
+              "IBANRequired": "Yes",
+              "IBANLength": "12",
+              "IBANPrefix": "def",
+              "CountryStatus": "TelemoneCountry",
+              "SwiftCode": "Yes",
+              "FieldNameforClearingCodeEnglish": "qwqwqw",
+              "FieldNameforClearingCodeArabic": "qwqwqw",
+              "status": "Active",
+              "id": "2"
+            },
+            {
+              "CountryCode": "9000",
+              "CountryNameEnglish": "Russia",
+              "CountryNameArabic": "asas sas",
+              "Currency": "currency2",
+              "IBANRequired": "Yes",
+              "IBANLength": "12",
+              "IBANPrefix": "ghi",
+              "CountryStatus": "TelemoneCountry",
+              "SwiftCode": "Yes",
+              "FieldNameforClearingCodeEnglish": "qwqwqw",
+              "FieldNameforClearingCodeArabic": "qwqwqw",
+              "status": "Rejected",
+              "id": "3"
+            }
+          
+          
+      
+      ]
+  },
+  "errors": null
+},
     "data3":
         {
     "responseHeader": {
